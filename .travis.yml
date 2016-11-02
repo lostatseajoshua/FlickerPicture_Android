@@ -7,7 +7,7 @@
       "android-24"
     ]
   },
-  "script": "./gradlew build connectedCheck",
+  "script": "cd FlickerPicture/ && ./gradlew",
   "group": "stable",
   "dist": "precise",
   "os": "linux"
