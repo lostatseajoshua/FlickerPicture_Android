@@ -1,14 +1,15 @@
-{
-  "language": "android",
-  "jdk": "oraclejdk8",
-  "android": {
-    "components": [
-      "build-tools-24.0.2",
-      "android-24"
-    ]
-  },
-  "script": "cd FlickerPicture/ && ./gradlew",
-  "group": "stable",
-  "dist": "precise",
-  "os": "linux"
-}
+language: android
+android:
+  components:
+    - tools
+    - platform-tools
+    - build-tools-24.0.3
+    - android-24
+    - extra-android-m2repository
+    - extra-google-m2repository
+    - extra-android-support
+    - extra-google-google_play_services
+jdk:
+  - oraclejdk8
+script:
+  - ./gradlew test
