@@ -7,7 +7,7 @@
       "android-24"
     ]
   },
-  "script": "./gradlew build",
+  "script": "./gradlew build connectedCheck",
   "group": "stable",
   "dist": "precise",
   "os": "linux"
