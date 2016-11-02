@@ -12,4 +12,4 @@ android:
 jdk:
   - oraclejdk8
 script:
-  - ./gradlew test
+  - cd FlickerPicture/ && ./gradlew test
